@@ -1,1 +1,9 @@
-# simple-template
+Node.js HTTP Proxy Agents Monorepo
+==================================
+[![Build Status](https://github.com/devtea2026/dolor-nulla-molestiae-ad/workflows/Node%20CI/badge.svg)](https://github.com/devtea2026/dolor-nulla-molestiae-ad/actions?workflow=Node+CI)
+
+This monorepo contains various Node.js HTTP Agent implementations that operate over proxies using various protocols.
+
+For the most common use-cases, you should be using the [`proxy-agent`](./packages/proxy-agent) module, which utilizes the other, more low-level, agent implementations.
+
+You can find [changelogs here](CHANGELOG.md).
